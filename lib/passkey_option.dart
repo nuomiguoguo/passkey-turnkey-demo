@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-const rpId = 'api-dev.versawallet.io';
+const rpId = ''; //https://api.google.com
 
 String getCredentialCreationOptions({
   required String challenge,
@@ -12,7 +12,7 @@ String getCredentialCreationOptions({
   if (Platform.isAndroid) {
     return jsonEncode({
       "challenge": challenge,
-      "rp": {"name": "Versa Wallet Test", "id": rpId},
+      "rp": {"name": "Wallet Test", "id": rpId},
       "user": {"id": userId, "name": userName, "displayName": userName},
       "pubKeyCredParams": [
         {
