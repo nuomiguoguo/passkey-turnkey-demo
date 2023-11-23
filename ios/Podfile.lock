@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_passkey (1.0.4):
+    - Flutter
+  - webcrypto (0.1.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_passkey (from `.symlinks/plugins/flutter_passkey/ios`)
+  - webcrypto (from `.symlinks/plugins/webcrypto/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_passkey:
+    :path: ".symlinks/plugins/flutter_passkey/ios"
+  webcrypto:
+    :path: ".symlinks/plugins/webcrypto/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_passkey: a9e34bf512d97f90d4f8cd7824f6bb308e571e6c
+  webcrypto: 58dac29c85327d3d72a47d19d44128f10905f58e
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.12.1
